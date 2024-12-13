@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.flexbox3 {
+    display: flex;
+    padding: 10px;
+}
+
+.text-side-icons {
+    margin-left: 30px;
+    width: 50%;
+    text-transform: capitalize;
+}
+
+body > div.flexbox1 > div.reach-us > div > div.text-side-icons > p:nth-child(1) > a {
+    text-transform: lowercase;
+    color: var(--lightblue);
+    text-decoration: underline;
+}

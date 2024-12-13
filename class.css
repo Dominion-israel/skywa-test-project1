@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.header-div {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    background: var(--ash);
+    position: relative;
+    z-index:1 ;
+}
+
+.text-area1 {
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    color: var(--white);
+    position: relative;
+    top: 30px;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big-text {
+    text-transform: uppercase;
+    text-decoration: solid ;
+    font-family: var(--verdana);
+    font-size: 3rem;
+    letter-spacing: 0;
+    
+    
+}
+
+.float-div {
+    float: right;
+    position: relative;
+    text-align: left;
+    
+    word-wrap: normal;
+
+}
+
+.img1 {
+    width: 30%;
+    height: 200px;
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    top: -40px;
+    right: 20px;
+    mix-blend-mode: darken;
+}
+
+
+.flexbox1 {
+    width: 100%;
+    min-height: calc(100vh / 2 + 100px);
+    position: relative;
+    top: 400px;
+    display: flex;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.h2-sty1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.reach-us {
+    width: 50% ;
+}
+
+.flexbox2 {
+    width: 65%;
+    margin-left: 60px;
+    position: relative;
+}
+
+.logo {
+   /* height: 10%;
+    width: 30%; */
+    position: relative;
+   /*S background: var(--white);*/
+    top: -700px;
+    left: 40px;
+}
+
+.logo2 {
+    position: relative;
+    width: fit-content;
+    top: 210px;
+    left: 5%;
+    z-index: 8;
+    mix-blend-mode: color-burn;
+}
+
+.icons1 {
+    font-size: 1.5rem;
+    color: var(--lightaqua);
+    position: relative;
+    top: 150px;
+    left: 7%;
+    z-index: 7;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.first-image {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:360px) {
+    .img1 {
+        height:150px ;
+        width: 20% ;
+        right: 30px;
+        top: -30px;
+    }
+
+    .header-div {
+        height: 75px;
+    }
+
+    .flexbox1 {
+        display: block;
+        height: calc(100vh);
+        top: 450px;
+    }
+
+    .big-text {
+        font-size: 2.5rem;
+    }
+
+    .reach-us {
+        width: 100%;
+    }
+
+    .flexbox2 {
+        font-size: 8px;
+        width: 70%;
+        top: -40px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        top: -1030px;
+        left: -10px;
+        width: fit-content;
+        
+    }
+
+    .logo2 {
+    top: 530px;
+    left: 3%;
+    mix-blend-mode: color-burn;
+    }
+
+    .icons1 {
+        top: 520px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .img1 {
+        max-width: 18%;
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --indigo:  #6b06b3;
+    --whiteish:  #faf6f6 ;
+    --white: #fff;
+    --whitesmoke: #f5f5f5;
+    --ash: #e9e7e7;
+    --goldish: #ebe713ef;
+    --lightpurple: #c989f7;
+    --darkpurple:  #330157;
+    --lightaqua:  #02f0f0;
+    --lightblue: #1313e0;
+    --blackish: rgb(26, 1, 49);
+    --black: #000;
+    --verdana: Verdana, Geneva, Tahoma, sans-serif;
+    --serif:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    /*height: 100vh;8*/
+    width: 100vw;
+    font-weight: 500;
+    background: var(--whiteish);
+    color: var(--blackish);
+    display: block;
+    font-family: var(--verdana);
+}
+
+h1 {
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--blackish);
+}
+
+body > header > div > span {
+    text-align: right;
+    align-self: right;
+}
+
+p {
+    font-size: 12px;
+}
+
+
+@media screen and (min-width:768px) {
+    #semi-box > .text-area > .float-div > p {
+        margin-right: 200px;
+    }
+}

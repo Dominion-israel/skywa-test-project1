@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.icons2 {
+    font-size: 1.3rem;
+    color: var(--black);
+    position: relative;
+    width: fit-content;
+}
+
+/*.fa-envelope::before {
+    background: var(--goldish);
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+.fa-phone::after {
+    background: var(--goldish);
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+} */
