@@ -22,8 +22,8 @@
 }
 
 body {
-    /*height: 100vh;8*/
-    width: 100vw;
+    /*height: 100vh;
+    width: 100vw;*/
     font-weight: 500;
     background: var(--whiteish);
     color: var(--blackish);
