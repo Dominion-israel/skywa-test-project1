@@ -21,14 +21,22 @@
     --serif:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+    height: 100%;
+    box-sizing: border-box;
+}
+
 body {
-    /*height: 100vh;
-    width: 100vw;*/
+    min-height: 1200px;
+    /*width: 100vw;*/
     font-weight: 500;
     background: var(--whiteish);
     color: var(--blackish);
-    display: block;
+    margin: 0;
     font-family: var(--verdana);
+    position: relative;
+    box-sizing: inherit;
 }
 
 h1 {
@@ -50,6 +58,11 @@ p {
     font-size: 12px;
 }
 
+@media screen and (max-width:360px) {
+    body {
+        min-height: 1800px;
+    }
+}
 
 @media screen and (min-width:768px) {
     #semi-box > .text-area > .float-div > p {

@@ -5,8 +5,8 @@
 }
 
 .outer-footer {
-    position: relative;
-    /*border: 3px solid red;*/
+    /*position: relative;
+    border: 3px solid red;*/
     max-width: 100%;
     min-height: 16vh;
     bottom: 0;
@@ -14,10 +14,12 @@
 
 .footer-div {
     background: var(--darkpurple);
-    width: 100%;
-    height: fit-content;
+    /*width: 100%;*/
+    min-height: 8rem;
     position: absolute;
-    /*bottom: 0;*/
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 20px;
 }
 
@@ -77,8 +79,8 @@ body > footer > .footer-div > .tandc > a:visited {
 
 @media screen and (max-width:360px) {
     .footer-div {
-        height: 25vh;
-        top: 50vh;
+        min-height: 10rem;
+        bottom: 0;
     }
 
     .copyright {

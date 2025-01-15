@@ -6,7 +6,7 @@
 
 .form-box1 {
     max-width: 280px;
-    max-height: 900px;
+    min-height: 350px;
     background:var(--whiteish);
     padding: 10px;
     border-radius: 20px;
